@@ -19,7 +19,7 @@ lastname|name|patronymic|date_of_birth|id
 
 import pandas as pd
 
-url = r"C:\Users\79832\Desktop\output.csv"
+url = r"your_path\output.csv"
 
 df = pd.read_csv(url, sep='|')
 
